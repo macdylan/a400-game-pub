@@ -1,0 +1,87 @@
+{
+  "games": [
+    {
+      "id": "snake",
+      "versionCode": 4,
+      "versionName": "1.1.1",
+      "url": "http://<PUBSERVE_HOST>/games/snake/4/game.pkg",
+      "sha256": "742ab36c798c83290d2b81272b7aeb4126f5b0f04e6982c096540473a2cf4c2f",
+      "size": 30826,
+      "name": "贪吃蛇",
+      "names": {
+        "zh": "贪吃蛇",
+        "en": "Snake",
+        "de": "Snake"
+      },
+      "desc": "经典贪吃蛇:手柄方向键/摇杆或棋盘滑动转向,吃食变长提速,撞墙或咬到自己即结束",
+      "input": [
+        "swipe"
+      ],
+      "license": "MIT",
+      "contentId": "f66349e77b4dd8a40641c8163ebac333817fc09ab6312c4de5a3c0d1d966277b"
+    },
+    {
+      "id": "g2048",
+      "versionCode": 3,
+      "versionName": "1.2.1",
+      "url": "https://macdylan.github.io/a400-game-pub/channels/stg/games/g2048/3/game.pkg",
+      "sha256": "64c5d61dd9d28ddaf2e1bd7a160e1c50afa32ca65153b1241e88f7a9948f2b4c",
+      "size": 39809,
+      "name": "2048",
+      "names": {
+        "zh": "2048",
+        "en": "2048",
+        "de": "2048"
+      },
+      "desc": "经典 2048:四向滑动合并数字块,合成 2048 里程碑后可继续,盘满无路可走即结束",
+      "input": [
+        "swipe"
+      ],
+      "license": "MIT",
+      "contentId": "b91b56a6024cfab277d4925472cdacaba866360c274a39e737dc1d3ccdcf9eb6"
+    },
+    {
+      "id": "blocks",
+      "versionCode": 4,
+      "versionName": "1.1",
+      "url": "http://<PUBSERVE_HOST>/games/blocks/4/game.pkg",
+      "sha256": "2813e5affb1d9e70377865f1033bc45b1907df181e6946a5d55c69e4cabea20f",
+      "size": 35342,
+      "name": "方块消除",
+      "names": {
+        "zh": "方块消除",
+        "en": "Blocks",
+        "de": "Blöcke"
+      },
+      "desc": "方块消除:移动与旋转下落方块,拼满整行即消除计分,方块堆到顶部即结束",
+      "input": [
+        "pad",
+        "swipe",
+        "tap"
+      ],
+      "license": "BSD-2-Clause",
+      "contentId": "0066d17faeebf4f2b1fafbfa911fd2cca1cd93d262f6bcb3076c24b977a8fcfb"
+    },
+    {
+      "id": "stellar",
+      "versionCode": 3,
+      "versionName": "1.0.0",
+      "url": "http://<PUBSERVE_HOST>/games/stellar/3/game.pkg",
+      "sha256": "15346721a6b0e3b96371c2e5146da1e707b1fbda8a1293b67e0c75cd89ab40d2",
+      "size": 90789,
+      "name": "星际逃亡",
+      "names": {
+        "zh": "星际逃亡",
+        "en": "Stellar Exodus",
+        "de": "Stellar Exodus"
+      },
+      "desc": "星际逃亡:按住 L2 引擎推力沿引力航道巡航,在琥珀中继悬停停泊,避开红色裂隙;五段走线精度+中继停泊残差结算,复刻 proportional 手感",
+      "input": [
+        "pad",
+        "analog"
+      ],
+      "license": "MIT",
+      "contentId": "3e84032d604c60a16340b63ea96d541c7bd9198d3ae228beee835cc0ad7c7e48"
+    }
+  ]
+}
